@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4241127375285168813
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ToonShader  Jammo
+  m_Shader: {fileID: -6465566751694194690, guid: 427d8d0048b84a140a63a1f82fc46177,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: fb6e06c953f0d8045bc58e0f5a640f07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rim_Light_Size: 0.22
+    - _Rim_Power: 1.51
+    - _Shadow_Light_Size: 0.03
+    - _Toon_Ramp_Offset: 0.27
+    - _Toon_Ramp_Smoothness: 0
+    m_Colors:
+    - _Rim_Light_Color: {r: 1.8136915, g: 1.8136915, b: 1.8136915, a: 0.8509804}
+    - _Shadow_Light_Color: {r: 0, g: 0.8413543, b: 2.6701574, a: 0.3254902}
+    - _Toon_Ramp_Tinting: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
+  m_BuildTextureStacks: []
